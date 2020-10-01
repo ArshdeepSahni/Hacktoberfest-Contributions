@@ -1,4 +1,4 @@
-// C program to reverse a linked list 
+// C++ program to reverse a linked list 
 // from position m to position n 
 #include <stdio.h> 
 #include <stdlib.h> 
