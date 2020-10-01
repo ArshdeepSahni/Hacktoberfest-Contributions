@@ -1,6 +1,6 @@
 # [HACKTOBERFEST2020](https://hacktoberfest.digitalocean.com/)
 
-<img src="https://avatars3.githubusercontent.com/u/71652614?s=400&v=4">
+<a href="https://hacktoberfest.digitalocean.com/"><img src="https://avatars3.githubusercontent.com/u/71652614?s=400&v=4"></a>
 
 ## Hactoberfest-Contributions
 ```css
