@@ -1,5 +1,8 @@
+<img src="https://avatars3.githubusercontent.com/u/71652614?s=400&v=4">
+
 # Hactoberfest-Contributions
-<img src="https://hacktoberfest.sensenet.com/img/hacktoberfest_Logo.png"><img src="https://avatars3.githubusercontent.com/u/71652614?s=400&v=4">
+
+<img src="https://hacktoberfest.sensenet.com/img/hacktoberfest_Logo.png">
 
 # Do `4` _Pull Requests_,
 ### Quality `codes` and `projects` are most welcome,
