@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" href="./favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="player-container">
+        <img class="mobile" src="./img/img.png" alt="">
+        <div class="background"></div>
+        <div class="img-container">
+            <img class="img" src="./img/Wonderful Tonight.jpg" alt="">
+        </div>
+        <h2 id="title">Wonderful Tonight</h2>
+        <h3 id="artist">Eric Clapton</h3>
+        <audio src="./music/Wonderful Tonight.mp3"></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"> </div>
+            <div class="duration-wrapper">
+                <span class="" id="current-time">0.00</span>
+                <span class="duration" id='duration'>4.02</span>
+            </div>
+
+        </div>
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+
+        <div class="volume-container" id="volume-container">
+            <div class="slider-container">
+                <span class="bar"><span class="fill"></span> </span>
+                <input class="volume slider" id="volume" type="range" min="1" max="100" value="70">
+            </div>
+
+            <div class="volume-wrapper">
+                <span class="vol-down"><i class="fas fa-volume-off"></i></span>
+                <span class="vol-up"><i class="fas fa-volume-up"></i></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ=="
+        crossorigin="anonymous"></script>
+    <script>
+        var $slider = $("#volume");
+        var $fill = $(".bar .fill");
+        var $audio = $('audio')
+
+        function setBar() {
+            $fill.css('width', $slider.val() + '%');
+            var volume = $slider.val() / 100;
+            $audio.prop("volume", volume)
+        }
+
+        $slider.on('input', setBar);
+
+        setBar();
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
