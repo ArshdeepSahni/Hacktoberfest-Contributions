@@ -58,8 +58,8 @@ pick a limited edition
 |**S.No.**|**`Folders`**|**Link**|
 |-----|-------|----|
 |**(1)**|**`DSA CODES`**|**[LINK](https://github.com/ArshdeepSahni/Hacktoberfest-Contributions/tree/main/DSA%20CODES)**|
-|**((2))**|**`MOBILE`**|**[LINK](https://github.com/ArshdeepSahni/Hacktoberfest-Contributions/tree/main/MOBILE)**|
-|**(((3)))**|**`WEB`**|**[LINK](https://github.com/ArshdeepSahni/Hacktoberfest-Contributions/tree/main/WEB)**|
+|**(2)**|**`MOBILE`**|**[LINK](https://github.com/ArshdeepSahni/Hacktoberfest-Contributions/tree/main/MOBILE)**|
+|**(3)**|**`WEB`**|**[LINK](https://github.com/ArshdeepSahni/Hacktoberfest-Contributions/tree/main/WEB)**|
 
 ### Quality `codes` and `projects` are most welcome,
 
