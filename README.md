@@ -75,5 +75,4 @@ pick a limited edition
 
 
 
-## keep it well organised,
-### keep the work up⇧
+# keep the _REPO_ well organised,
